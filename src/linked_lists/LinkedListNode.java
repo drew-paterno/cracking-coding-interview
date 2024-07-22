@@ -28,7 +28,7 @@ class LinkedListNode<T> {
     }
 
     public String toString() {
-        return data.toString();
+        return data == null ? null : data.toString();
     }
 
     public String listToString() {
